@@ -1,0 +1,112 @@
+/* GENERAL STYLES */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Alegreya', serif;
+}
+
+/* HEADER STYLES */
+
+.header-container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #fff;
+}
+
+/* LOGO STYLES */
+
+.logo-container {
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #e67e22;
+}
+
+.logo-container a {
+  text-align: center;
+}
+
+/* JUICE MENU */
+
+.juice-info {
+  width: 75vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto;
+}
+
+.juice-info p {
+  text-align: center;
+  padding: 10px;
+}
+
+.coffee-tea {
+  width: 75vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.juice-menu {
+  width: 75vw;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.left-menu {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  justify-content: flex-start;
+}
+
+.right-menu {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+
+.sample {
+  position: relative;
+  border-bottom: 1px solid black;
+}
+
+span {
+  position: absolute;
+  right: 0;
+}
+
+h4 {
+  margin-top: 20px;
+}
+
+.juice-menu h5 {
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 450px) {
+  .logo-container img {
+    width: 90%;
+  }
+  span {
+    position: relative;
+    margin-left: 5px;
+  }
+}
